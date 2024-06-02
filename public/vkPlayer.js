@@ -65,7 +65,6 @@ export function initializeVKPlayer(roomInfo, currentRoomID, userID, socket, play
 
 
 function convertVKLink(link) {
-
     const regex = /https:\/\/vk\.com\/video(-?\d+)_(\d+)/;
     const match = link.match(regex);
 
