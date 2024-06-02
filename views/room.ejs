@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://vk.com/js/api/videoplayer.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <meta charset="utf-8" />
+    <title>Room</title>
+</head>
+
+<body class="room_body">
+    <h1 class="room_name">Комната просмотра фильма</h1>
+    <div id="pageInformation">
+        <div id="IDRoom" class="room_info"></div>
+        <div id="KeyRoom" class="room_info"></div>
+        <div id="UserNameRoom" class="room_info"></div>
+        <div id="CopyContainer" class="room_info"></div>
+    </div>
+    <button id="exitButton">Выйти из комнаты</button>
+    <div id="playerContainer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="/room.js" type="module"></script>
+</body>
+
+</html>

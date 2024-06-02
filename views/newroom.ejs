@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>!Toge3er</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="newroom_body">
+    <h1 class="nr_name">Создание новой комнаты</h1>
+    <p class="nr_des">Выберите способ просмотра:</p>
+    <div class="card_container">
+        <div class="card" id="OtherCard">
+            <h3>Прямая ссылка</h3>
+            <p class="c_des">Выберите эту опцию, чтобы указать ссылку на видео в сети.<br> Поддерживаются сайты: YouTube, Вконтактe и прямая ссылка на MP4</p>
+        </div>
+        <div class="card" id="LocalCard">
+            <h3>Локальный файл</h3>
+            <p class="c_des">Выберите эту опцию, чтобы загрузить видео с вашего компьютера.
+                <br>Поддерживаются следующие расширения: mp4, webm и ogv
+            </p>
+        </div>
+    </div>
+    <div class="inputs_container" id="inputsContainer"></div>
+    <div class="launch_container" id="PlayBtnContainer"></div>
+    <script src="/newRoomScript.js" defer></script>
+</body>
+
+</html>
